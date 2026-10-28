@@ -1,0 +1,5 @@
+# Personal task logs stay local
+*.csv
+
+.venv/
+__pycache__/
