@@ -3,3 +3,7 @@
 
 .venv/
 __pycache__/
+
+# Trained model (built from personal logs) and local Claude Code settings
+*.joblib
+.claude/
