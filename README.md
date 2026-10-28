@@ -1,11 +1,12 @@
 # Task Duration Estimator
+This is the first AI Project that I have worked on, in the attempt to accurately predict how long certain tasks will take me. The goal is to gain experience in training AI models in the hopes that not only I can gain more understanding of AI, but also so I can have a reliable estimate on how long certain tasks will take me. I would like the AI that I train to be better than me at predicting these tasks, as well as better than the standard non machine learning model.
 
-A machine-learning model, trained on my own task log, that predicts how long a task will take (homework, studying, gym, chores, clubs, ...).
+This is a machine-learning model, trained on my own task log, that predicts how long a task will take (homework, studying, gym, chores, clubs, ...).
 
 The project has two parts:
 
 - **`train_model.py`**: the trained model (scikit-learn ridge regression).
-- **`estimate_duration.py`**: a hand-written, rule-based estimator kept as the **baseline**. The model is only worth using if it beats this.
+- **`estimate_duration.py`**: a hand-written, rule-based estimator kept as the **baseline**. The model is only worth using if it beats this, but my goal is to get the trained model to outperform this.
 
 ## Setup
 
